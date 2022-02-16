@@ -33,3 +33,23 @@ $gradient-colors-second: #cf556c, #8fd3f4, #f68084, #96e6a1, #38f9d7, #fbc2eb,
     );
   }
 }
+
+.flex-container {
+  display: flex;
+  // display: inline-flex;
+
+  flex-direction: row; // default
+  // flex-direction: row-reverse;
+  // flex-direction: column;
+  // flex-direction: column-reverse;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
