@@ -33,3 +33,28 @@ $gradient-colors-second: #cf556c, #8fd3f4, #f68084, #96e6a1, #38f9d7, #fbc2eb,
     );
   }
 }
+
+.flex-container {
+  display: flex;
+
+  min-height: 100vh;
+  // height: 100vh;
+  // flex-direction: column;
+
+  // flex-wrap: nowrap; // default
+  flex-wrap: wrap;
+  // flex-wrap: wrap-reverse;
+
+  padding: 5px; // for align margin distance
+
+  // gap: 5px; // set the gutters between rows and columns
+}
+
+.flex-item {
+  // width: 200px;
+  // width: 50%;
+  // width: 33.33%;
+
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
