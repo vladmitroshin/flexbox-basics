@@ -33,3 +33,39 @@ $gradient-colors-second: #cf556c, #8fd3f4, #f68084, #96e6a1, #38f9d7, #fbc2eb,
     );
   }
 }
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+}
+
+.flex-item {
+  // width: 300px;
+}
+
+.item-1 {
+  align-self: stretch; // default
+}
+
+.item-2 {
+  align-self: start;
+}
+
+.item-3 {
+  align-self: center;
+}
+
+.item-4 {
+  align-self: end;
+}
+
+.item-5 {
+  align-self: baseline;
+}
+
+.item-6 {
+  align-self: baseline;
+  font-size: 150px;
+}
