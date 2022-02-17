@@ -33,3 +33,29 @@ $gradient-colors-second: #cf556c, #8fd3f4, #f68084, #96e6a1, #38f9d7, #fbc2eb,
     );
   }
 }
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.item-1 {
+  // order: 0; // default
+  order: 1;
+}
+
+.item-4 {
+  order: 2;
+}
+
+.item-5 {
+  order: 1;
+}
+
+.item-7 {
+  order: -1;
+}
