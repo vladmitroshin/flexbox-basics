@@ -33,3 +33,32 @@ $gradient-colors-second: #cf556c, #8fd3f4, #f68084, #96e6a1, #38f9d7, #fbc2eb,
     );
   }
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: start;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.item-2 {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-item {
+  flex: 0 0 100px;
+}
+
+.inner-item-1 {
+  background-color: coral;
+}
+
+.inner-item-2 {
+  background-color: indigo;
+}
